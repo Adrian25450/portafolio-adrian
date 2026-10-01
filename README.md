@@ -2,14 +2,13 @@
 
 🎓 Ingeniero de Sistemas | 💻 Desarrollo web | ⚙️ Automatización | 🛠️ Soporte TI | 📊 Datos
 
-Portafolio personal con experiencia, tecnologías y proyectos demostrativos. Sitio estático preparado para publicarse con **GitHub Pages**.
+Portafolio personal con experiencia, tecnologías y proyectos demostrativos. Publicado con **GitHub Pages**. 🌐 https://adrian25450.github.io/portafolio-adrian/
 
 ## 🚀 Contenido
 
 - 🏠 `index.html` — página principal del portafolio.
 - 📸 `foto-adrian.jpg` — retrato del encabezado.
 - 🧩 `proyectos/` — ocho demos interactivas de proyectos.
-
 
 ## 🛠️ Proyectos incluidos
 
@@ -22,18 +21,14 @@ Portafolio personal con experiencia, tecnologías y proyectos demostrativos. Sit
 - 🏬 Inventario de bodega — gestión de productos y muestra de personal.
 - 🏍️ Inventario de repuestos — catálogo y existencias de repuestos para motos.
 
-## 🌐 Publicar con GitHub Pages
+## 🌐 Sitio publicado
 
-1. Sube el contenido de esta carpeta a la raíz del repositorio.
-2. Abre **Settings → Pages** en GitHub.
-3. En **Build and deployment**, elige **Deploy from a branch**, selecciona la rama `main` y la carpeta `/ (root)`.
-4. Guarda los cambios. GitHub mostrará la dirección pública del sitio en esa sección.
+El portafolio está configurado con GitHub Pages desde la rama `main`, carpeta `/ (root)`.
+
+🔗 [Abrir el portafolio](https://adrian25450.github.io/portafolio-adrian/)
 
 ## ℹ️ Notas
 
 - Las demos muestran datos de ejemplo; algunos cambios se guardan en el almacenamiento local del navegador.
 - WeatherApp consulta Open-Meteo y necesita conexión a internet.
 - Las páginas de clientes se presentan como muestras de portafolio.
-
-
-
