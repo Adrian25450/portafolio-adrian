@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "docuflow-organizer"
+version = "1.0.0"
+description = "Organizador seguro de archivos con vista previa y reporte CSV"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Adrián Pedroza Marín"}]
+dependencies = []
+
+[project.scripts]
+docuflow = "docuflow.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
