@@ -1,9 +1,0 @@
-<!doctype html>
-<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0b1424"><title>AuthGuard · Demo 2FA</title><link rel="stylesheet" href="/styles.css"></head>
-<body><main class="shell"><header><span class="logo">AG</span><div><small>PROYECTO DEMOSTRATIVO</small><h1>AuthGuard</h1></div><span class="badge">2FA · TOTP</span></header>
-<p class="intro">Autenticación con contraseña y código temporal de seis dígitos. Crea una cuenta, escanea el QR y prueba el inicio de sesión.</p>
-<section class="card"><div class="tabs"><button class="tab active" data-view="register">Crear cuenta</button><button class="tab" data-view="login">Iniciar sesión</button></div>
-<form id="account-form"><label>Correo electrónico<input name="email" type="email" autocomplete="email" placeholder="nombre@correo.com" required></label><label>Contraseña<input name="password" type="password" minlength="10" maxlength="72" autocomplete="new-password" placeholder="Mínimo 10 caracteres" required></label><button class="primary" type="submit">Crear cuenta y configurar 2FA</button></form>
-<div id="challenge" class="challenge" hidden><h2>Configura el autenticador</h2><p>Escanea el código QR con una app TOTP y escribe el código actual.</p><img id="qr" alt="Código QR para configurar autenticación"><details><summary>Introducir clave manualmente</summary><code id="secret"></code></details><form id="token-form"><label>Código de seis dígitos<input name="token" inputmode="numeric" autocomplete="one-time-code" pattern="[0-9]{6}" maxlength="6" required></label><button id="token-button" class="primary">Verificar y continuar</button></form></div>
-<div id="notice" class="notice" role="status"></div><div id="account" class="account" hidden></div></section><footer>Node.js · Express · Prisma · SQLite · TOTP</footer></main><script src="/app.js"></script></body></html>
-
